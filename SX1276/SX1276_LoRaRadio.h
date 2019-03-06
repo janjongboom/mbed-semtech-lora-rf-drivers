@@ -426,6 +426,7 @@ private:
     void rf_irq_task(void);
     void set_modem(uint8_t modem);
     void rx_chain_calibration(void);
+    void print_registers();
 
     // ISRs
     void  dio0_irq_isr();
